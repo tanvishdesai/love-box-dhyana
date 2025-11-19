@@ -11,7 +11,7 @@ export function ShaderAnimation() {
     camera: THREE.Camera
     scene: THREE.Scene
     renderer: THREE.WebGLRenderer
-    uniforms: any
+    uniforms: Record<string, { value: unknown }>
     animationId: number
   } | null>(null)
 
@@ -73,13 +73,11 @@ export function ShaderAnimation() {
     const scene = new THREE.Scene()
     const geometry = new THREE.PlaneGeometry(2, 2)
 
-    const isDark = resolvedTheme === "dark"
-
     const uniforms = {
       time: { type: "f", value: 1.0 },
       resolution: { type: "v2", value: new THREE.Vector2() },
       uMouse: { type: "v2", value: new THREE.Vector2(0, 0) },
-      uIsDark: { type: "f", value: isDark ? 1.0 : 0.0 },
+      uIsDark: { type: "f", value: 0.0 }, // Initial value, updated by other effect
     }
 
     const material = new THREE.ShaderMaterial({

@@ -122,6 +122,7 @@ export function RulerCarousel({
 
     // If we're in the first set, jump to the equivalent position in the middle set
     if (activeIndex < itemsPerSet) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsResetting(true);
       setTimeout(() => {
         setActiveIndex(activeIndex + itemsPerSet);
