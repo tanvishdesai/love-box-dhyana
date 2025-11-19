@@ -1,0 +1,213 @@
+{
+  "occasions": [
+    {
+      "id": "generated_by_db",
+      "name": "Birthday",
+      "description": "Celebrate special moments with thoughtfully curated gifts for birthdays",
+      "image": "https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Anniversary",
+      "description": "Mark milestone moments with elegant and meaningful gifts",
+      "image": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Wedding",
+      "description": "Make weddings memorable with premium and sophisticated gift selections",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Graduation",
+      "description": "Celebrate academic achievements with inspiring and practical gifts",
+      "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Corporate",
+      "description": "Impress clients and colleagues with professional and premium gifts",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500&h=500&fit=crop"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Baby Shower",
+      "description": "Welcome new arrivals with delightful and practical baby gifts",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&h=500&fit=crop"
+    }
+  ],
+  "products": [
+    {
+      "id": "generated_by_db",
+      "name": "Luxury Spa Gift Set",
+      "description": "Premium aromatherapy and skincare collection with organic ingredients and eco-friendly packaging",
+      "price": 4500,
+      "categoryId": "wellness",
+      "images": [
+        "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": true,
+      "occasionId": "birthday_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Artisan Chocolate Collection",
+      "description": "Hand-crafted chocolates from premium cocoa with exotic flavors and beautiful presentation",
+      "price": 1999,
+      "categoryId": "food",
+      "images": [
+        "https://images.unsplash.com/photo-1599599810694-b5ac4dd64b73?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": true,
+      "occasionId": "anniversary_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Personalized Photo Frame",
+      "description": "Custom engraved wooden photo frame with premium finish, perfect for cherished memories",
+      "price": 2499,
+      "categoryId": "decor",
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": true,
+      "occasionId": "wedding_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Premium Coffee Hamper",
+      "description": "Curated selection of specialty coffee from around the world, including brewing equipment",
+      "price": 3499,
+      "categoryId": "food",
+      "images": [
+        "https://images.unsplash.com/photo-1577936569-18f38df85d69?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": true,
+      "occasionId": "corporate_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Luxury Watch",
+      "description": "Elegant timepiece with Swiss precision movement and premium leather strap",
+      "price": 12999,
+      "categoryId": "accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1523170335684-f042655cbdba?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": true,
+      "occasionId": "graduation_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Crystal Decanter Set",
+      "description": "Handcrafted crystal decanter with premium whiskey and elegant serving glasses",
+      "price": 8999,
+      "categoryId": "home",
+      "images": [
+        "https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": false,
+      "occasionId": "baby_shower_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Silk Scarf Collection",
+      "description": "Handmade silk scarves with artistic patterns inspired by traditional craftsmanship",
+      "price": 3299,
+      "categoryId": "fashion",
+      "images": [
+        "https://images.unsplash.com/photo-1611591489619-9f8c4f4b2b2c?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": false,
+      "occasionId": "birthday_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Luxury Pen Set",
+      "description": "Premium fountain pens with Italian leather case, perfect for professionals and enthusiasts",
+      "price": 5499,
+      "categoryId": "stationery",
+      "images": [
+        "https://images.unsplash.com/photo-1572365992253-3cb3e56dd362?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": false,
+      "occasionId": "anniversary_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Organic Tea Collection",
+      "description": "Premium loose-leaf teas from exotic locations with health benefits and wonderful flavors",
+      "price": 2799,
+      "categoryId": "food",
+      "images": [
+        "https://images.unsplash.com/photo-1597318300878-5d9e3f1e2e98?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": false,
+      "occasionId": "wedding_occasion_id"
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Aromatherapy Diffuser",
+      "description": "Smart ultrasonic diffuser with essential oils and ambient lighting for relaxation",
+      "price": 3999,
+      "categoryId": "wellness",
+      "images": [
+        "https://images.unsplash.com/photo-1576740179021-ce4a42927a34?w=500&h=500&fit=crop"
+      ],
+      "isFeatured": false,
+      "occasionId": "corporate_occasion_id"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "generated_by_db",
+      "name": "Priya Sharma",
+      "role": "Event Manager",
+      "quote": "The gifting experience was seamless and the products are absolutely stunning. My clients were impressed!",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+      "rating": 5
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Rajesh Kumar",
+      "role": "Corporate Executive",
+      "quote": "Outstanding quality and presentation. Perfect for corporate gifts. Highly recommended!",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+      "rating": 5
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Ananya Gupta",
+      "role": "Wedding Planner",
+      "quote": "The curated collections make it so easy to find the perfect gifts. Customer service is exceptional.",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+      "rating": 5
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Vikram Singh",
+      "role": "Business Owner",
+      "quote": "Fast delivery and premium quality. This is my go-to place for all gifting needs.",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+      "rating": 5
+    },
+    {
+      "id": "generated_by_db",
+      "name": "Neha Patel",
+      "role": "Freelance Designer",
+      "quote": "Love the aesthetic and thoughtfulness behind every product. Truly a premium gifting experience.",
+      "image": "https://images.unsplash.com/photo-1517841905240-c21a9d141e90?w=200&h=200&fit=crop",
+      "rating": 5
+    }
+  ],
+  "summary": {
+    "totalOccasions": 6,
+    "totalProducts": 10,
+    "totalTestimonials": 5,
+    "totalProductValue": "₹59,287",
+    "featuredProducts": 5,
+    "averageProductPrice": "₹5,928.70"
+  }
+}
+

@@ -9,6 +9,10 @@
  */
 
 import type * as inquiries from "../inquiries.js";
+import type * as migrate from "../migrate.js";
+import type * as occasions from "../occasions.js";
+import type * as products from "../products.js";
+import type * as testimonials from "../testimonials.js";
 
 import type {
   ApiFromModules,
@@ -18,6 +22,10 @@ import type {
 
 declare const fullApi: ApiFromModules<{
   inquiries: typeof inquiries;
+  migrate: typeof migrate;
+  occasions: typeof occasions;
+  products: typeof products;
+  testimonials: typeof testimonials;
 }>;
 
 /**

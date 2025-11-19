@@ -242,13 +242,13 @@ export function RulerCarousel({
 
         <div className="flex items-center gap-2">
           <span className="text-sm font-medium text-muted-foreground dark:text-gray-400">
-            {currentPage}
+            {isNaN(currentPage) ? "-" : currentPage}
           </span>
           <span className="text-sm text-muted-foreground dark:text-gray-500">
             /
           </span>
           <span className="text-sm font-medium text-muted-foreground dark:text-gray-400">
-            {totalPages}
+            {totalPages || "-"}
           </span>
         </div>
 

@@ -5,11 +5,14 @@ import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
+import { GiftFinder } from "@/components/gift-finder";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar1 />
       <Hero />
+      <GiftFinder />
       <Gallery />
       <Testimonials />
       <ContactForm />

@@ -50,6 +50,10 @@ export const AnimatedTestimonials = ({
     setRotations(randomRotations);
   }, [testimonials]);
 
+  if (!testimonials || testimonials.length === 0) {
+    return null;
+  }
+
   return (
     <div className={cn("max-w-sm md:max-w-4xl mx-auto px-4 md:px-8 lg:px-12 py-20", className)}>
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-20">

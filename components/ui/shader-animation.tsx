@@ -77,7 +77,7 @@ export function ShaderAnimation() {
       time: { type: "f", value: 1.0 },
       resolution: { type: "v2", value: new THREE.Vector2() },
       uMouse: { type: "v2", value: new THREE.Vector2(0, 0) },
-      uIsDark: { type: "f", value: 0.0 }, // Initial value, updated by other effect
+      uIsDark: { type: "f", value: 1.0 },
     }
 
     const material = new THREE.ShaderMaterial({
@@ -185,7 +185,7 @@ export function ShaderAnimation() {
         material.dispose()
       }
     }
-  }, []) // Run once on mount
+  }, [])
 
   return (
     <div

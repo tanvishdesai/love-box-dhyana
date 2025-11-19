@@ -2,19 +2,17 @@
 
 import { RulerCarousel, type CarouselItem } from "@/components/ui/ruler-carousel";
 
-const occasions: CarouselItem[] = [
-  { id: 1, title: "BIRTHDAY", color: "#ec4899" }, // Pink
-  { id: 2, title: "VALENTINE'S DAY", color: "#ef4444" }, // Red
-  { id: 3, title: "DIWALI", color: "#f97316" }, // Orange
-  { id: 4, title: "RAKHI", color: "#eab308" }, // Yellow
-  { id: 5, title: "ANNIVERSARY", color: "#3b82f6" }, // Blue
-  { id: 6, title: "WEDDING", color: "#db2777" }, // Pink-700
-  { id: 7, title: "CHRISTMAS", color: "#22c55e" }, // Green
-  { id: 8, title: "NEW YEAR", color: "#a855f7" }, // Purple
-  { id: 9, title: "BABY SHOWER", color: "#06b6d4" }, // Cyan
-];
+import { useQuery } from "convex/react";
+import { api } from "@/convex/_generated/api";
 
 export default function Gallery() {
+  const occasionsData = useQuery(api.occasions.get) || [];
+  
+  const occasions: CarouselItem[] = occasionsData.map((occ, index) => ({
+    id: index + 1,
+    title: occ.name.toUpperCase(),
+    color: "#ec4899", // Default color as we don't have it in DB yet, or could map based on name
+  }));
   return (
     <section id="gallery" className="py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
@@ -27,7 +25,13 @@ export default function Gallery() {
       </div>
 
       <div className="w-full">
-        <RulerCarousel originalItems={occasions} />
+        {occasions.length > 0 ? (
+          <RulerCarousel originalItems={occasions} />
+        ) : (
+          <div className="h-[600px] flex items-center justify-center">
+            <p className="text-muted-foreground">Loading occasions...</p>
+          </div>
+        )}
       </div>
     </section>
   );
