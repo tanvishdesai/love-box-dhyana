@@ -47,11 +47,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="w-5 h-5 text-primary" />
-                <span>dhyana@gmail.com</span>
+                <span>loveinbox@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>+91 9016505667</span>
+                <span>+91 6351 306 414</span>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary" />
@@ -65,7 +65,7 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground mb-6">Follow Us</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/madewith_.loveee/"
                 className="w-10 h-10 rounded-full bg-background flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all hover:-translate-y-1"
               >
                 <Instagram className="w-5 h-5" />

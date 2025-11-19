@@ -157,8 +157,7 @@ export function RulerCarousel({
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isResetting]);
 
-  // Calculate target position - center the active item
-  const centerPosition = 5; // We want item 5 (index 4) to be centered initially
+  const centerPosition = 4; // We want item 5 (index 4) to be centered initially
   const targetX = -500 + (centerPosition - (activeIndex % itemsPerSet)) * 500;
 
   // Get current page info

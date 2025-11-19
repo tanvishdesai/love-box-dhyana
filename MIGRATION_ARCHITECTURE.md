@@ -10,18 +10,18 @@
 ┌──────────────────────────────────────────────────────────────────┐
 │                     CONVEX DATABASE (Backend)                    │
 │                                                                  │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐  │
-│  │  Occasions   │  │   Products   │  │  Testimonials        │  │
-│  │  (6 items)   │  │  (10 items)  │  │  (5 items)           │  │
-│  │              │  │              │  │                      │  │
-│  │ • Birthday   │  │ • Spa Set    │  │ • Priya Sharma       │  │
-│  │ • Wedding    │  │ • Watch      │  │ • Rajesh Kumar       │  │
-│  │ • Corporate  │  │ • Pen Set    │  │ • Ananya Gupta       │  │
-│  │ • ... +3 more│  │ • ... +7 more│  │ • ... +2 more        │  │
-│  └──────────────┘  └──────────────┘  └──────────────────────┘  │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐    │
+│  │  Occasions   │  │   Products   │  │  Testimonials        │    │
+│  │  (6 items)   │  │  (10 items)  │  │  (5 items)           │    │
+│  │              │  │              │  │                      │    │
+│  │ • Birthday   │  │ • Spa Set    │  │ • Priya Sharma       │    │
+│  │ • Wedding    │  │ • Watch      │  │ • Rajesh Kumar       │    │
+│  │ • Corporate  │  │ • Pen Set    │  │ • Ananya Gupta       │    │
+│  │ • ... +3 more│  │ • ... +7 more│  │ • ... +2 more        │    │
+│  └──────────────┘  └──────────────┘  └──────────────────────┘    │
 │                                                                  │
-│                      convex/schema.ts                           │
-│              (Defines table structure)                          │
+│                      convex/schema.ts                            │
+│              (Defines table structure)                           │
 └──────────────────────────────────────────────────────────────────┘
                               ▲
                               │

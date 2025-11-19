@@ -57,17 +57,17 @@ export default function ContactForm() {
             {
               icon: Mail,
               label: "Email",
-              value: "dhyana@gmail.com",
+              value: "loveinbox@gmail.com",
             },
             {
               icon: Phone,
               label: "WhatsApp",
-              value: "+91 9016505667",
+              value: "+91 6351 306 414",
             },
             {
               icon: MapPin,
               label: "Location",
-              value: "Gujarat, India", 
+              value: "Gandhinagar, Gujarat", 
             },
           ]}
         >

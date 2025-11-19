@@ -58,11 +58,8 @@ export function ShaderAnimation() {
         
         float alpha = max(max(color.r, color.g), color.b);
         
-        // In dark mode (uIsDark=1), use original color. 
-        // In light mode (uIsDark=0), use dark lines (vec3(0.0)) with the same alpha pattern.
-        vec3 finalColor = mix(vec3(0.0), color, uIsDark);
-        
-        gl_FragColor = vec4(finalColor, alpha);
+        // Use the same colorful gradient in both dark and light modes
+        gl_FragColor = vec4(color, alpha);
       }
     `
 
